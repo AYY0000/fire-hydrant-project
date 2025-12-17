@@ -1,0 +1,343 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "$2a$10$Q4rVFNdB91jSgsM64DRCy.4yVNbdixopzkocW7DY5eeNVMxcl97zW",
+      "role": "admin",
+      "real_name": "系统管理员",
+      "status": 1,
+      "created_at": "2025-12-16T13:13:04.014Z",
+      "last_login_at": "2025-12-17T06:45:26.850Z"
+    },
+    {
+      "id": 2,
+      "username": "firefighter",
+      "password": "$2a$10$RK4CJk/iscRIUAmZtokeY.QEpCWvR7Hnlbsejd3JC9/hQ65lggpNW",
+      "role": "firefighter",
+      "real_name": "消防员测试账号",
+      "status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "last_login_at": "2025-12-17T06:43:22.914Z"
+    },
+    {
+      "id": 3,
+      "username": "collector",
+      "password": "$2a$10$yHUFvwdMbjaX6R4qfXh8XOOATpVnBQox08xa0typIFYWL4F4gDBZK",
+      "role": "collector",
+      "real_name": "采集员测试账号",
+      "status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "last_login_at": "2025-12-17T06:03:20.832Z"
+    }
+  ],
+  "fire_hydrants": [
+    {
+      "id": 1,
+      "hydrant_id": "XFH-001",
+      "name": "东区体育中心消防栓",
+      "address": "东区体育路1号广场西侧",
+      "longitude": 113.3852,
+      "latitude": 22.5311,
+      "type": "地上",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.4,
+      "reference": "体育中心西侧广场",
+      "last_check": "2023-11-01",
+      "update_user_id": 3,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-17T05:38:50.827Z"
+    },
+    {
+      "id": 2,
+      "hydrant_id": "XFH-002",
+      "name": "石岐区步行街消防栓",
+      "address": "石岐区孙文西路100号商铺前",
+      "longitude": 113.3702,
+      "latitude": 22.5201,
+      "type": "地上",
+      "status": "损坏",
+      "water_source": "市政供水",
+      "pressure": 0.2,
+      "reference": "步行街中段商铺前",
+      "last_check": "2023-09-15",
+      "update_user_id": 1,
+      "audit_status": 0,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 3,
+      "hydrant_id": "XFH-003",
+      "name": "西区客运站消防栓",
+      "address": "西区富华道48号客运站广场",
+      "longitude": 113.3502,
+      "latitude": 22.5281,
+      "type": "地下",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.35,
+      "reference": "客运站入口广场",
+      "last_check": "2023-10-20",
+      "update_user_id": 1,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 4,
+      "hydrant_id": "XFH-004",
+      "name": "南区医院消防栓",
+      "address": "南区城南一路1号医院大门左侧",
+      "longitude": 113.375,
+      "latitude": 22.498,
+      "type": "地上",
+      "status": "废弃",
+      "water_source": "市政供水",
+      "pressure": null,
+      "reference": "医院大门左侧花坛",
+      "last_check": "2023-06-10",
+      "update_user_id": 1,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 5,
+      "hydrant_id": "XFH-005",
+      "name": "火炬开发区测试消防栓",
+      "address": "火炬开发区科技大道100号",
+      "longitude": 113.4502,
+      "latitude": 22.5401,
+      "type": "地上",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.35,
+      "reference": "科技大道与创新路交叉口",
+      "last_check": "2023-11-01",
+      "update_user_id": 1,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 6,
+      "hydrant_id": "XFH-006",
+      "name": "小榄镇测试消防栓",
+      "address": "小榄镇工业大道200号",
+      "longitude": 113.2502,
+      "latitude": 22.6481,
+      "type": "地上",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.4,
+      "reference": "工业大道与小榄大道交叉口",
+      "last_check": "2023-11-01",
+      "update_user_id": 1,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 7,
+      "hydrant_id": "XFH-007",
+      "name": "港口镇测试消防栓",
+      "address": "港口镇兴港大道300号",
+      "longitude": 113.3802,
+      "latitude": 22.6081,
+      "type": "地上",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.4,
+      "reference": "兴港大道与民主路交叉口",
+      "last_check": "2023-11-01",
+      "update_user_id": 1,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 8,
+      "hydrant_id": "XFH-008",
+      "name": "三角镇测试消防栓",
+      "address": "三角镇金三大道500号",
+      "longitude": 113.4202,
+      "latitude": 22.6781,
+      "type": "地上",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.35,
+      "reference": "金三大道与福源路交叉口",
+      "last_check": "2023-11-01",
+      "update_user_id": 1,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 9,
+      "hydrant_id": "XFH-009",
+      "name": "板芙镇测试消防栓",
+      "address": "板芙镇工业大道800号",
+      "longitude": 113.3202,
+      "latitude": 22.4281,
+      "type": "地上",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.38,
+      "reference": "工业大道与芙蓉路交叉口",
+      "last_check": "2023-11-01",
+      "update_user_id": 1,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-16T13:13:04.015Z"
+    },
+    {
+      "id": 10,
+      "hydrant_id": "XFH-010",
+      "name": "南朗镇测试消防栓",
+      "address": "南朗镇南岐中路600号",
+      "longitude": 113.5302,
+      "latitude": 22.4981,
+      "type": "地上",
+      "status": "正常",
+      "water_source": "市政供水",
+      "pressure": 0.42,
+      "reference": "南岐中路与岭南路交叉口",
+      "last_check": "2023-11-01",
+      "update_user_id": 3,
+      "audit_status": 1,
+      "created_at": "2025-12-16T13:13:04.015Z",
+      "updated_at": "2025-12-17T05:58:00.937Z"
+    }
+  ],
+  "hydrant_photos": [],
+  "operation_logs": [
+    {
+      "id": 1765953929286,
+      "userId": 1,
+      "operation": "删除用户",
+      "timestamp": "2025-12-17T06:45:29.286Z",
+      "details": {
+        "targetUserId": 5,
+        "targetUsername": "test2"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953926855,
+      "userId": 1,
+      "operation": "用户登录",
+      "timestamp": "2025-12-17T06:45:26.855Z",
+      "details": {
+        "loginTime": "2025-12-17T06:45:26.855Z",
+        "ipAddress": "::1"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953908085,
+      "userId": 5,
+      "operation": "用户登录",
+      "timestamp": "2025-12-17T06:45:08.085Z",
+      "details": {
+        "loginTime": "2025-12-17T06:45:08.085Z",
+        "ipAddress": "::1"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953895328,
+      "userId": 4,
+      "operation": "用户登录",
+      "timestamp": "2025-12-17T06:44:55.328Z",
+      "details": {
+        "loginTime": "2025-12-17T06:44:55.328Z",
+        "ipAddress": "::1"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953882939,
+      "userId": 1,
+      "operation": "修改用户密码",
+      "timestamp": "2025-12-17T06:44:42.939Z",
+      "details": {
+        "targetUserId": 5
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953871130,
+      "userId": 1,
+      "operation": "添加用户",
+      "timestamp": "2025-12-17T06:44:31.130Z",
+      "details": {
+        "targetUsername": "test2",
+        "targetRole": "collector"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953853389,
+      "userId": 1,
+      "operation": "添加用户",
+      "timestamp": "2025-12-17T06:44:13.389Z",
+      "details": {
+        "targetUsername": "test",
+        "targetRole": "firefighter"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953833426,
+      "userId": 1,
+      "operation": "用户登录",
+      "timestamp": "2025-12-17T06:43:53.426Z",
+      "details": {
+        "loginTime": "2025-12-17T06:43:53.426Z",
+        "ipAddress": "::1"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953816100,
+      "userId": 2,
+      "operation": "开始导航",
+      "timestamp": "2025-12-17T06:43:36.100Z",
+      "details": {
+        "hydrantId": "XFH-006",
+        "hydrantName": "小榄镇测试消防栓",
+        "distance": 19268,
+        "timestamp": "2025-12-17T06:43:36.100Z"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953802924,
+      "userId": 2,
+      "operation": "用户登录",
+      "timestamp": "2025-12-17T06:43:22.924Z",
+      "details": {
+        "loginTime": "2025-12-17T06:43:22.924Z",
+        "ipAddress": "::1"
+      },
+      "source": "server"
+    },
+    {
+      "id": 1765953176863,
+      "userId": 3,
+      "operation": "删除消防栓",
+      "timestamp": "2025-12-17T06:32:56.863Z",
+      "details": {
+        "hydrantId": "XFH-645",
+        "hydrantName": "test30",
+        "deletedAt": "2025-12-17T06:32:56.863Z"
+      },
+      "source": "server"
+    }
+  ],
+  "_lastSaved": "2025-12-17T06:45:31.012Z"
+}
